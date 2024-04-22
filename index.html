@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/gente.png">
+    <title>Profile</title>
+</head>
+
+<body>
+    <nav class="network" id="network">
+        <h1>Network</h1>
+    </nav>
+    <div class="all" id="all">
+        <div class="profile" id="profile">
+            <img src="img/walter.jpeg" alt="">
+            <h1>Walter White</h1>
+        </div>
+        <div class="containers" id="containers">
+            <div class="feed" id="feed">
+                <h1>Your Feed</h1>
+            </div>
+            <div class="linn" id="container">
+                <h1>Linn O.</h1>
+                <div class="likes" id="likes">
+                    <p class="linn-like" id="linn-like">0 like(s)</p>
+                    <button onclick="aumentarLike('linn-like')" class="btn-like" id="btn-like">Like</button>
+                </div>
+                <p>Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes. <a
+                        href="https://discord.com/">link</a></p>
+            </div>
+            <div class="lina" id="container">
+                <h1>Lina K.</h1>
+                <div class="likes" id="likes">
+                    <p class="lina-like" id="lina-like">0 like(s)</p>
+                    <button onclick="aumentarLike('lina-like')" class="btn-like" id="btn-like">Like</button>
+                </div>
+                <p>Acabo de terminar este <a href="https://www.crazyallcomics.cl/">nuevo comic</a>, denle un vistazo.
+                </p>
+            </div>
+            <div class="mateo" id="container">
+                <h1>Mateo H.</h1>
+                <div class="likes" id="likes">
+                    <p class="mateo-lke" id="mateo-like">0 like(s)</p>
+                    <button onclick="aumentarLike('mateo-like')" class="btn-like" id="btn-like">Like</button>
+                </div>
+                <p>No puedo dejar de escuchar este <a href="https://open.spotify.com/intl-es">album</a>. ¿A quién más le
+                    gusta?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
